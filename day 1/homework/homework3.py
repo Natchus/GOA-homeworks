@@ -17,5 +17,5 @@ print(age)
 print(number)
 print(money)
 print(Pi)
-print
-print
+print(pie)
+print(float)

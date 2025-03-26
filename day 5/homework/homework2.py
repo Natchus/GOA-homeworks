@@ -4,4 +4,4 @@ age=input("enter your age:")
 hobby=input("enter your hobby:")
 hometown=input("enter your hometown:")
 
-print("Your name is"+" "+(name)+" "+(surname)+"."+" "+"Your age is"+" "+(age)+"."+" "+"Your hobby is"+" "+(hobby)+" "+"and"+" "+"Your hometown is"+" "+(hometown)+".")
+print("Your name is"+" "+(name)+" "+(surname)+"."+" "+"Your age is"+" "+(age)+"."+" "+"Your hobby is"+" "+(hobby)+" "+"and"+" "+"your hometown is"+" "+(hometown)+".")

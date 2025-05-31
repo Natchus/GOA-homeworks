@@ -1,0 +1,26 @@
+<!-- ვქმნით მარტივ სარეგისტრაციო ფორმას -->
+<head>
+  <title>სარეგისტრაციო ფორმა</title>
+</head>
+<body>
+    <form>
+        <!-- მომხმარებელი შეიყვანს თავის სახელს -->
+        <!-- name="firstname" საჭიროა, რომ ეს მონაცემი სერვერმა მიიღოს ამ სახელით -->
+        <!-- placeholder აჩვენებს ტექსტს ველში მანამ, სანამ მომხმარებელი შეიყვანს რამეს -->
+        <!-- required ნიშნავს რომ არის აუცილებელი -->
+         <input type="text" name="firstname" placeholder=" შენი სახელი:" required><br><br>
+         <input type="text" name="lastname" placeholder=" შენი გვარი:" required><br><br>
+        <!-- drop-down მენიუ, საიდანაც მომხმარებელი აირჩევს თავის ქვეყანას -->
+        <!-- ვაძლევთ უნიკალურ id-ს -->
+        <!-- name="country" საჭიროა, რომ არჩეული ქვეყნის მონაცემი სწორად გადავიდეს სერვერზე --> -->
+         <label for="country">შენი ქვეყანა:</label>
+         <select name="country" id="country">
+             <option value="france">საფრანგეთი</option>
+             <option value="georgia">საქართველო</option>
+             <option value="usa">აშშ</option>
+             <option value="germany">გერმანია</option>
+         </select><br><br>
+         <!-- შევქმენით ღილაკი -->
+         <button>დადასტურება</button> 
+    </form>
+</body>
